@@ -1,0 +1,20 @@
+{
+  "name": "lesson-tools",
+  "version": "1.0.0",
+  "description": "Tool to convert and generate translations for lessons",
+  "main": "generator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fabricio Biron <fabriciob@xello.world>",
+  "contributors": [
+    "Jonatas Melo <jonatasm@xello.world>",
+    "Lily Beaul <lilyb@xello.world>",
+    "Wesley Francis <wesleyf@careercruising.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "csv-parser": "^2.3.2"
+  }
+}

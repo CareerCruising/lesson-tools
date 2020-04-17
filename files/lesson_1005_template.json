@@ -1,0 +1,2109 @@
+{
+  "lessonId": 1005,
+  "landing": {
+    "titleText": "Dax Versus the Gremlins",
+    "descriptionText": "Learn to set goals and stay on track.",
+    "image": "l-5-landing.png",
+    "timeEstimateText": "20 to 30 minutes",
+    "gates": [
+      {
+        "id": "SaveOneGoal",
+        "icon": "237-goal",
+        "titleText": "To unlock this mission:",
+        "descriptionText": "Add at least 1 goal to your profile",
+        "descriptionAltText": "Add at least 1 goal to your profile",
+        "ctaText": "Add Goals",
+        "route": "changeGoals",
+        "notInActionView": false
+      }
+    ],
+    "ctaText": "Let's Go!"
+  },
+  "activities": [
+    {
+      "id": 1,
+      "isReflective": false,
+      "titleText": "How to Set Goals",
+      "exercises": [
+        {
+          "id": 1,
+          "titleText": "How to Set Goals",
+          "subtitleText": "See how Dax learns to set goals.",
+          "type": "video",
+          "config": {
+            "videoId": "t9w76kkkaw",
+            "completeTitleText": "How to Set Goals",
+            "completeSubtitleText": "See how Dax learns to set goals.",
+            "creditText": "Music is from Bendsound.com"
+          }
+        },
+        {
+          "id": 2,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-1.png",
+                  "mobile": "lesson-5-comic-1-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“They watched in horror as the doorknob slowly began to turn—”<hr/>BEEP BEEP BEEP! The sound of Dax’s stopwatch trilled, interrupting her story.<hr/>“Gotta go!” Dax was off in a flash, running towards the park. Marsh and Pep were left sitting on the bench staring after her, stunned by her sudden exit."
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-2.png",
+                  "mobile": "lesson-5-comic-2-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“What’s the rush?” Marsh asked finally, annoyed by the abrupt ending to the scary story.<hr/>“Cartwheel practice!” remembered Pep. “Dax is trying to learn to do a perfect cartwheel.”<hr/>Pep knew how badly Dax wanted to compete in the Olympics one day. “Learning to cartwheel is a key skill for a gymnast, so it's a really important goal.”"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 3,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-3.png",
+                  "mobile": "lesson-5-comic-3-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "Suddenly Pep jumped up, pointing in Dax's direction. “Do you see that? I think Dax is being followed!”<hr/>Marsh shrugged. “It just looks like clouds of dust to me.”<hr/>But Pep knew better. <hr/>“Clean your glasses, Marsh. That’s a whole grapple of goal gremlins!”"
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-4.png",
+                  "mobile": "lesson-5-comic-4-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "Marsh blinked at Pep. “Goal gremlins? A grapple? Please explain.”<hr/>Pep told Marsh how goal gremlins are tricksters who want to derail anyone working to meet a goal. They can appear in many forms and are hard to spot. But when you do spot them they lose a lot of their power.”"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-5.png",
+                  "mobile": "lesson-5-comic-5-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "Pep suspected that the first gremlin to go after Dax would be the <b>Muddler</b>.<hr/>“This gremlin likes to strike early, when a goal is just getting set,” Pep explained. “It tries to stop you from setting a clear goal. It’s mucky and makes your goal feel hazy and hard to achieve.”<hr/>“Aw, nerts!” whispered Marsh, worrying about Dax."
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-6.png",
+                  "mobile": "lesson-5-comic-6-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“Then there's the <b>Distractor</b>,” Pep continued. “Its tactic is to lure you away from your goal.”<hr/>“This gremlin will try to tempt you with all kinds of distractions.”<hr/>“Sneaky!” Marsh squeaked."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-7.png",
+                  "mobile": "lesson-5-comic-7-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“The <b>Swarm of Excuses</b> is the peskiest gremlin,” Pep went on. <hr/>“It can descend on you with all kinds of reasons why you won’t be able to reach your goal.”<hr/>“This gremlin wants to frustrate you. Even worse, it can chip away at your self-confidence.”<hr/>“Annoying!” muttered Marsh."
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-8.png",
+                  "mobile": "lesson-5-comic-8-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "52px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“Next, watch out for the <b>Procrastinator</b>,” said Pep. <hr/>“Procrasta-what?“ asked Marsh.<hr/>Pep described a sly, charming gremlin that wants goal-setters to think they have all the time in the world.<hr/>“It will try to delay you from working towards your goal!” warned Pep."
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": 6,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-9.png",
+                  "mobile": "lesson-5-comic-9-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“Finally, there’s the creepiest gremlin of all: <b>Vampiro</b>,” Pep whispered.<hr/>“Double nerts.” Marsh whimpered.<hr/>“It doesn't drink blood,” said Pep quickly. “But Vampiro tries to drain your motivation for your goal. It wants you to stop thinking about why your goal matters.”"
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-10.png",
+                  "mobile": "lesson-5-comic-10-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "52px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“Pep, we can't let these gremlins ruin Dax's goal. Or she’ll never reach her Olympic dream!“ Marsh said as they set off to find their friend.<hr/>By the time they reached Dax, she was surrounded. “This is more serious than I thought,” said Pep. “Dax’s goal means so much to her, it’s made these gremlins extra greedy.”<hr/>“Courage!” cried Marsh. “It's time to start gremlin-busting!”"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "isReflective": false,
+      "landing": {
+        "titleText": "Crystal Clear Goals",
+        "image": {
+          "imageUrlMobile": "l-5-a-1-landing-mobile.png",
+          "imageUrl": "l-5-a-1-landing.png"
+        },
+        "config": {
+          "character": [
+            {
+              "image": "dax-concerned-sitting.png",
+              "flipped": false,
+              "width": {
+                "mobile": 120,
+                "desktop": 138.5
+              },
+              "positions": {
+                "mobile": {
+                  "left": "-10px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "left": "-15px",
+                  "bottom": "-36px"
+                }
+              }
+            },
+            {
+              "image": "pep-marsh-lecturing.png",
+              "flipped": false,
+              "width": {
+                "mobile": 180,
+                "desktop": 204
+              },
+              "positions": {
+                "mobile": {
+                  "right": "-10px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "right": "-16px",
+                  "bottom": "-36px"
+                }
+              }
+            }
+          ],
+          "speechBubble": [
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "left": "23%",
+                  "bottom": "35%"
+                }
+              },
+              "width": {
+                "desktop": 230,
+                "mobile": 157
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": true,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "Strange... I know I want to be a gymnast, but how do I start?"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "left": "-3%",
+                  "bottom": "40%"
+                }
+              },
+              "width": {
+                "desktop": 230,
+                "mobile": 190
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "Strange... I know I want to be a gymnast, but how do I start?"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "right": "3%",
+                  "bottom": "77%"
+                }
+              },
+              "width": {
+                "desktop": 213,
+                "mobile": 211
+              },
+              "leftSideArrow": false,
+              "mirroredArrow": true,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "Dax is getting muddled already! Help clear things up."
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "right": "-3%",
+                  "bottom": "40%"
+                }
+              },
+              "width": {
+                "desktop": 213,
+                "mobile": 211
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "Dax is getting muddled already! Help clear things up."
+            }
+          ]
+        },
+        "descriptionText": "Identify what you need to set a goal.",
+        "descriptionAltText": "Identify what you need to set a goal.",
+        "ctaText": "Start Activity"
+      },
+      "hub": {
+        "titleText": "Watch out, the Muddler is making its move on Dax!",
+        "descriptionText": "Stop this gremlin before it makes a mess of her goal.",
+        "activities": [
+          {
+            "activityId": 0,
+            "titleText": "Goals and Gremlins",
+            "image": "l-5-h-1.png"
+          },
+          {
+            "activityId": 1,
+            "titleText": "Crystal Clear Goals",
+            "completeImage": "l-5-h-2-complete.png",
+            "image": "l-5-h-2.png"
+          },
+          {
+            "activityId": 2,
+            "titleText": "Grappling with Gremlins",
+            "completeImage": "l-5-h-3-complete.png",
+            "image": "l-5-h-3.png"
+          },
+          {
+            "activityId": 3,
+            "titleText": "Goal Gazing",
+            "completeImage": "l-5-h-4-complete.png",
+            "image": "l-5-h-4.png"
+          },
+          {
+            "activityId": 4,
+            "titleText": "Dream Goals",
+            "image": "l-5-h-5.png"
+          }
+        ],
+        "hubActions": [
+          {
+            "hubActionText": "Watch the video again",
+            "type": "video",
+            "icon": "214-play",
+            "config": {
+              "videoId": "t9w76kkkaw",
+              "titleText": "How to Set Goals",
+              "creditText": "Music is from Bendsound.com"
+            }
+          },
+          {
+            "hubActionText": "Read the story again",
+            "type": "comic",
+            "icon": "213-notebook",
+            "config": {
+              "comicConfig": {
+                "activityId": 1,
+                "combineAll": true
+              },
+              "titleText": "Mission: Facing Big Challenges"
+            }
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": 1,
+          "titleText": "Pick the <b>key</b> goal-setting step:",
+          "type": "story-multi-select",
+          "background": "l-5-a-1-e1.png",
+          "backgroundComplete": "l-5-a-1-e2.png",
+          "config": {
+            "minSelectionNumber": 1
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Pick the same goal as your friend",
+              "correctAnswer": false,
+              "answerText": "Hmm...you might not always have the same goals as your friend."
+            },
+            {
+              "id": 2,
+              "shortText": "Choose a clear and realistic goal",
+              "correctAnswer": true,
+              "answerText": "Yep! Challenge yourself within your limits."
+            },
+            {
+              "id": 3,
+              "shortText": "Just start doing something and pick your goal later",
+              "correctAnswer": false,
+              "answerText": "Hmm...don't think that's the best way to set a goal."
+            },
+            {
+              "id": 4,
+              "shortText": "Pick a goal that will make you famous",
+              "correctAnswer": false,
+              "answerText": "Hmm...not sure that's key to goal setting."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titleText": "Pick the <b>key</b> goal-setting step:",
+          "type": "story-multi-select",
+          "background": "l-5-a-1-e2.png",
+          "backgroundComplete": "l-5-a-1-e3.png",
+          "config": {
+            "minSelectionNumber": 1
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Decide on a finish line for your goal",
+              "correctAnswer": true,
+              "answerText": "Exactly! Pick a timeframe to aim for."
+            },
+            {
+              "id": 2,
+              "shortText": "It’s better not to give your goal a finish line",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure a finish line is an important step."
+            },
+            {
+              "id": 3,
+              "shortText": "Once you set a finish line you can’t change it",
+              "correctAnswer": false,
+              "answerText": "Hmm...most of the time your finish line can change."
+            },
+            {
+              "id": 4,
+              "shortText": "Always set your finish line on a special occasion",
+              "correctAnswer": false,
+              "answerText": "Hmm...not always—it depends on your goal."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titleText": "Pick the <b>key</b> goal-setting step:",
+          "type": "story-multi-select",
+          "background": "l-5-a-1-e3.png",
+          "backgroundComplete": "l-5-a-1-e4.png",
+          "config": {
+            "minSelectionNumber": 1
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Don't make a plan to reach your goal",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure every goal needs a plan."
+            },
+            {
+              "id": 2,
+              "shortText": "Break your goal down into smaller steps",
+              "correctAnswer": true,
+              "answerText": "Right! Breaking your goal into steps gives you a plan."
+            },
+            {
+              "id": 3,
+              "shortText": "Complete your goal as quickly as possible",
+              "correctAnswer": false,
+              "answerText": "Hmm...some goals need more time to complete than others."
+            },
+            {
+              "id": 4,
+              "shortText": "Skip over any steps that are too hard",
+              "correctAnswer": false,
+              "answerText": "Hmm...skipping a hard step won't get you closer to your goal."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "titleText": "Pick the <b>key</b> goal-setting step:",
+          "type": "story-multi-select",
+          "background": "l-5-a-1-e4.png",
+          "backgroundComplete": "l-5-a-1-e5.png",
+          "config": {
+            "minSelectionNumber": 1
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Think about why your goal matters to your teacher",
+              "correctAnswer": false,
+              "answerText": "Hmm...not all your goals will concern your teacher."
+            },
+            {
+              "id": 2,
+              "shortText": "Dwell on all the ways you could fail to reach your goal",
+              "correctAnswer": false,
+              "answerText": "Hmm...don't think this would be a useful action."
+            },
+            {
+              "id": 3,
+              "shortText": "Reflect on why your goal matters to you",
+              "correctAnswer": true,
+              "answerText": "That’s it! This will help you stay motivated along the way."
+            },
+            {
+              "id": 4,
+              "shortText": "Don’t think about your goal, it’s bad luck",
+              "correctAnswer": false,
+              "answerText": "Hmm...not sure luck matters here."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "titleText": "Here are some key goal-setting steps:",
+        "image": {
+          "titleText": "Clean sweep!",
+          "subTitleText": "Dax scrubbed the Muddler by getting clear on her goal: to learn to do a perfect cartwheel.",
+          "imageUrl": "l-5-a-1-summary.png"
+        },
+        "skipQuestion": true,
+        "results": [
+          {
+            "exerciseId": 1
+          },
+          {
+            "exerciseId": 2
+          },
+          {
+            "exerciseId": 3
+          },
+          {
+            "exerciseId": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "isReflective": false,
+      "landing": {
+        "titleText": "Grappling with Gremlins",
+        "image": {
+          "imageUrlMobile": "l-5-a-2-landing-mobile.png",
+          "imageUrl": "l-5-a-2-landing.png"
+        },
+        "config": {
+          "character": [
+            {
+              "image": "pep-marsh-concerned.png",
+              "flipped": false,
+              "width": {
+                "mobile": 190,
+                "desktop": 245
+              },
+              "positions": {
+                "mobile": {
+                  "left": "-5px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "left": "-16px",
+                  "bottom": "-40px"
+                }
+              }
+            },
+            {
+              "image": "dax-sitting-l.png",
+              "flipped": false,
+              "width": {
+                "mobile": 100,
+                "desktop": 138.5
+              },
+              "positions": {
+                "mobile": {
+                  "right": "0px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "right": "100px",
+                  "bottom": "-40px"
+                }
+              }
+            }
+          ],
+          "speechBubble": [
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "left": "-2%",
+                  "bottom": "60%"
+                },
+                "desktop": {
+                  "left": "-16px",
+                  "bottom": "50%"
+                }
+              },
+              "width": {
+                "desktop": 144,
+                "mobile": 120
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "bubbleText": "More goal gremlins are closing in!"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "left": "134px",
+                  "bottom": "50%"
+                }
+              },
+              "width": {
+                "desktop": 151
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": true,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "Help Dax defeat these sneaky new gremlins."
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "left": "21%",
+                  "bottom": "33%"
+                }
+              },
+              "width": {
+                "mobile": 151
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "Help Dax defeat these sneaky new gremlins."
+            }
+          ]
+        },
+        "descriptionText": "Spot some goal setting obstacles and ways to overcome them.",
+        "descriptionAltText": "Spot some goal setting obstacles and ways to overcome them.",
+        "ctaText": "Start Activity"
+      },
+      "hub": {
+        "titleText": "More gremlins are circling the park!",
+        "descriptionText": "Help Dax spot them and shoo them away in the next mission.",
+        "activities": [
+          {
+            "activityId": 0,
+            "titleText": "Goals and Gremlins",
+            "image": "l-5-h-1.png"
+          },
+          {
+            "activityId": 1,
+            "titleText": "Crystal Clear Goals",
+            "completeImage": "l-5-h-2-complete.png",
+            "image": "l-5-h-2.png"
+          },
+          {
+            "activityId": 2,
+            "titleText": "Grappling with Gremlins",
+            "completeImage": "l-5-h-3-complete.png",
+            "image": "l-5-h-3.png"
+          },
+          {
+            "activityId": 3,
+            "titleText": "Goal Gazing",
+            "completeImage": "l-5-h-4-complete.png",
+            "image": "l-5-h-4.png"
+          },
+          {
+            "activityId": 4,
+            "titleText": "Dream Goals",
+            "image": "l-5-h-5.png"
+          }
+        ],
+        "hubActions": [
+          {
+            "hubActionText": "Watch the video again",
+            "type": "video",
+            "icon": "214-play",
+            "config": {
+              "videoId": "t9w76kkkaw",
+              "titleText": "How to Set Goals",
+              "creditText": "Music is from Bendsound.com"
+            }
+          },
+          {
+            "hubActionText": "Read the story again",
+            "type": "comic",
+            "icon": "213-notebook",
+            "config": {
+              "comicConfig": {
+                "activityId": 1,
+                "combineAll": true
+              },
+              "titleText": "Mission: Facing Big Challenges"
+            }
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": 1,
+          "titleText": "The <b>Distractor</b> is closing in! What could distract someone from <b>reading 1 chapter book in a month?</b>",
+          "questionText": "Goal: Reading 1 chapter book in a month",
+          "type": "multi-select",
+          "background": "l-5-a-2-e1.png",
+          "config": {
+            "minSelectionNumber": 1,
+            "prependQuestionText": "Distractor: "
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Starting a new video game",
+              "correctAnswer": true,
+              "answerText": "Got it! Might be too tempting to spend time playing instead of reading."
+            },
+            {
+              "id": 2,
+              "shortText": "Setting aside a certain time to read each day",
+              "correctAnswer": false,
+              "answerText": "Hmm...this sounds like a good plan, not a distraction."
+            },
+            {
+              "id": 3,
+              "shortText": "Planning to read at least 5 pages a day",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure this is a good idea and not a distraction."
+            },
+            {
+              "id": 4,
+              "shortText": "Reading with a friend 2 days a week",
+              "correctAnswer": false,
+              "answerText": "Hmm...seems like this could be one way to reach that goal."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titleText": "It’s the <b>Swarm of Excuses</b>! What poor excuse could stop someone from <b>practicing tennis 3 times a week?</b>",
+          "questionText": "Goal: Practicing tennis 3 times a week",
+          "type": "multi-select",
+          "background": "l-5-a-2-e2.png",
+          "config": {
+            "minSelectionNumber": 1,
+            "prependQuestionText": "Swarm of Excuses: "
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "The tennis court is closed for repairs",
+              "correctAnswer": false,
+              "answerText": "Hmm...sounds like something you can't control—not a poor excuse."
+            },
+            {
+              "id": 2,
+              "shortText": "I sprained my ankle so I should rest until I feel better",
+              "correctAnswer": false,
+              "answerText": "Hmm...that's a good reason to take a break."
+            },
+            {
+              "id": 3,
+              "shortText": "There’s no point in practicing at all unless I practice every day",
+              "correctAnswer": true,
+              "answerText": "Yep! 3 practices a week is way better than none."
+            },
+            {
+              "id": 4,
+              "shortText": "There's a class trip today so I’ll practice on the weekend instead",
+              "correctAnswer": false,
+              "answerText": "Hmm...sounds like a wise plan rather than a poor excuse."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titleText": "Here comes <b>the Procrastinator</b>! What could keep someone from <b>leaving for school on time?</b>",
+          "questionText": "Goal: Leave for school on time",
+          "type": "multi-select",
+          "background": "l-5-a-2-e3.png",
+          "config": {
+            "minSelectionNumber": 1,
+            "prependQuestionText": "Procrastinator: "
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Pack their school bag before bed",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure that would help leaving for school on time."
+            },
+            {
+              "id": 2,
+              "shortText": "Watch just 1 more cartoon episode",
+              "correctAnswer": true,
+              "answerText": "You bet! The extra screen time can lead to being late."
+            },
+            {
+              "id": 3,
+              "shortText": "Get out of bed as soon as they wake up",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure that would help someone leave on time."
+            },
+            {
+              "id": 4,
+              "shortText": "Wait until after school to get out the Lego",
+              "correctAnswer": false,
+              "answerText": "Hmm...sounds like a good idea if they want to leave on time."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "level-up",
+          "titleText": "STEP UP!",
+          "subTitleText": "Now help Dax defeat the gremlins and keep her goal on track!",
+          "config": {
+            "background": {
+              "imageUrl": "spotlight-bg-blue.svg"
+            },
+            "image": {
+              "imageUrl": "pep-cheering.png"
+            },
+            "isAutoCompleted": true,
+            "color": "navy",
+            "sparkles": {
+              "imageUrl": "spotlight-sparkles-blue.svg"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "titleText": "Dax needs to practice. Pick <b>2 ways</b> Dax can defeat the Distractor",
+          "questionText": "2 ways Dax can defeat the Distractor",
+          "type": "multi-select",
+          "background": "l-5-a-2-e4.png",
+          "config": {
+            "minSelectionNumber": 2
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Her goal must not truly matter if she gets distracted",
+              "correctAnswer": false,
+              "answerText": "Hmm...distractions can get in the way of all goals."
+            },
+            {
+              "id": 2,
+              "shortText": "Stay away from distracting things while she cartwheels",
+              "correctAnswer": true,
+              "answerText": "Excellent move!"
+            },
+            {
+              "id": 3,
+              "shortText": "Set a certain time to work on cartwheels and take short breaks",
+              "correctAnswer": true,
+              "answerText": "Right on! Short breaks can help Dax focus without distractions."
+            },
+            {
+              "id": 4,
+              "shortText": "Give in to the distraction so it stops bothering her",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure that's letting the Distractor win."
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "titleText": "Pick <b>2 ways</b> Dax can stop the Swarm of Excuses from pulling her off track",
+          "questionText": "2 ways Dax can stop the Swarm of Excuses from pulling her off track",
+          
+          "type": "multi-select",
+          "background": "l-5-a-2-e5.png",
+          "config": {
+            "minSelectionNumber": 2
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Ignore the excuses and do her cartwheel practice",
+              "correctAnswer": true,
+              "answerText": "Great idea! Most excuses will fade away without the attention."
+            },
+            {
+              "id": 2,
+              "shortText": "Wear earmuffs so she can’t hear the excuses",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure earmuffs will only help keep her ears warm."
+            },
+            {
+              "id": 3,
+              "shortText": "Listen to the excuses and give up on cartwheeling",
+              "correctAnswer": false,
+              "answerText": "Hmm...pretty sure that's letting the Swarm of Excuses win."
+            },
+            {
+              "id": 4,
+              "shortText": "Think about her Olympic dream to drown out any excuses",
+              "correctAnswer": true,
+              "answerText": "Nice plan! Thinking of her long-term goal is an excuse-buster."
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "titleText": "Pick <b>2 ways</b> that Dax can outsmart the Procrastinator and meet her goal on time.",
+          "questionText": "2 ways that Dax can face down the Procrastinator",
+          "type": "multi-select",
+          "background": "l-5-a-2-e6.png",
+          "config": {
+            "minSelectionNumber": 2
+          },
+          "options": [
+            {
+              "id": 1,
+              "shortText": "Plan to skip cartwheeling today but do extra the next time",
+              "correctAnswer": false,
+              "answerText": "Hmm...skipping practice for no reason can pull Dax's goal off track."
+            },
+            {
+              "id": 2,
+              "shortText": "Keep track of each practice, like with a sticker on a calendar",
+              "correctAnswer": true,
+              "answerText": "Fantastic! Seeing her progress, she won’t want to skip practice."
+            },
+            {
+              "id": 3,
+              "shortText": "If she puts it off today, her cartwheels will be better tomorrow",
+              "correctAnswer": false,
+              "answerText": "Hmm...don't think her cartwheels will get better without practice."
+            },
+            {
+              "id": 4,
+              "shortText": "Plan to cartwheel at a certain time, like right after lunch",
+              "correctAnswer": true,
+              "answerText": "Yes! That’s a good way to stay on track and beat procrastination."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "image": {
+          "titleText": "Success!",
+          "subTitleText": "Dax shook off those pesky gremlins and made some good progress.",
+          "imageUrl": "l-5-a-2-summary.png"
+        },
+        "titleText": "Here are some obstacles to goals and ways to overcome them:",
+        "results": [
+          {
+            "exerciseId": 1
+          },
+          {
+            "exerciseId": 2
+          },
+          {
+            "exerciseId": 3
+          },
+          {
+            "exerciseId": 5
+          },
+          {
+            "exerciseId": 6
+          },
+          {
+            "exerciseId": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "isReflective": true,
+      "landing": {
+        "titleText": "Goal Gazing",
+        "image": {
+          "imageUrlMobile": "l-5-a-3-landing-mobile.png",
+          "imageUrl": "l-5-a-3-landing.png"
+        },
+        "config": {
+          "character": [
+            {
+              "image": "pep-marsh-determined.png",
+              "flipped": false,
+              "width": {
+                "mobile": 153,
+                "desktop": 249
+              },
+              "positions": {
+                "mobile": {
+                  "left": "-12px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "left": "-16px",
+                  "bottom": "-16px"
+                }
+              }
+            },
+            {
+              "image": "dax-concerned-sitting-l.png",
+              "flipped": false,
+              "width": {
+                "mobile": 95,
+                "desktop": 147
+              },
+              "positions": {
+                "mobile": {
+                  "right": "0px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "right": "23px",
+                  "bottom": "-36px"
+                }
+              }
+            }
+          ],
+          "speechBubble": [
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "left": "5%",
+                  "bottom": "55%"
+                }
+              },
+              "width": {
+                "mobile": 163
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "Don’t let Vampiro steal Dax’s will to ‘wheel!"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "left": "-3%",
+                  "bottom": "45%"
+                }
+              },
+              "width": {
+                "desktop": 163
+              },
+              "leftSideArrow": false,
+              "mirroredArrow": false,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "Don’t let Vampiro steal Dax’s will to ‘wheel!"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "right": "-3%",
+                  "bottom": "50%"
+                }
+              },
+              "width": {
+                "desktop": 153,
+                "mobile": 206
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "I'm tired of cartwheeling. Why am I trying so hard?"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "right": "5%",
+                  "bottom": "30%"
+                }
+              },
+              "width": {
+                "mobile": 206
+              },
+              "leftSideArrow": false,
+              "mirroredArrow": false,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "I'm tired of cartwheeling. Why am I trying so hard?"
+            }
+          ]
+        },
+        "descriptionText": "Think about a goal you've set and why it matters.",
+        "descriptionAltText": "Think about a goal you've set and why it matters.",
+        "ctaText": "Start Activity"
+      },
+      "hub": {
+        "titleText": "Uh-oh! Something weird and creepy is flying into view.",
+        "descriptionText": "Help Dax outwit this gremlin and learn to stay motivated.",
+        "activities": [
+          {
+            "activityId": 0,
+            "titleText": "Goals and Gremlins",
+            "image": "l-5-h-1.png"
+          },
+          {
+            "activityId": 1,
+            "titleText": "Crystal Clear Goals",
+            "completeImage": "l-5-h-2-complete.png",
+            "image": "l-5-h-2.png"
+          },
+          {
+            "activityId": 2,
+            "titleText": "Grappling with Gremlins",
+            "completeImage": "l-5-h-3-complete.png",
+            "image": "l-5-h-3.png"
+          },
+          {
+            "activityId": 3,
+            "titleText": "Goal Gazing",
+            "completeImage": "l-5-h-4-complete.png",
+            "image": "l-5-h-4.png"
+          },
+          {
+            "activityId": 4,
+            "titleText": "Dream Goals",
+            "image": "l-5-h-5.png"
+          }
+        ],
+        "hubActions": [
+          {
+            "hubActionText": "Watch the video again",
+            "type": "video",
+            "icon": "214-play",
+            "config": {
+              "videoId": "t9w76kkkaw",
+              "titleText": "How to Set Goals",
+              "creditText": "Music is from Bendsound.com"
+            }
+          },
+          {
+            "hubActionText": "Read the story again",
+            "type": "comic",
+            "icon": "213-notebook",
+            "config": {
+              "comicConfig": {
+                "activityId": 1,
+                "combineAll": true
+              },
+              "titleText": "Mission: Facing Big Challenges"
+            }
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": 1,
+          "type": "goals-cards",
+          "isDynamic": true,
+          "titleText": "Pick <b>1 goal</b> from your: <b>saved goals</b>",
+          "config": {
+            "minSelectionNumber": 1
+          }
+        },
+        {
+          "id": 2,
+          "type": "text-box",
+          "titleText": "What will keep you motivated to reach your goal?",
+          "placeholderKeys": {
+            "goalName": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1,
+                "propertyName": "shortText"
+              }
+            }
+          },
+          "isDynamic": true,
+          "config": {
+            "tooltipToggle": {
+              "labelText": "Not sure what to write? Try some idea starters.",
+              "tooltipText": "Is your goal written down somewhere you can see it?<br/>Do you imagine how you will feel when you meet your goal?<br/>What happens when you think about why you want to complete this goal?"
+            },
+            "placeholderText": "Add your answer here to continue",
+            "rows": 2,
+            "leftPanel": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1
+              },
+              "type": "goal",
+              "subtype": "description"
+            }
+          },
+          "variantConfig": {
+            "variantId": 1,
+            "answerFrom": {
+              "activityId": 4,
+              "exerciseId": 1
+            },
+            "activateIf": {
+              "statusId": 1
+            },
+            "replace": {
+              "titleText": "What kept you motivated to reach your goal?",
+              "config": {
+                "tooltipToggle": {
+                  "tooltipText": "Was your goal written down somewhere you could see it?<br/>Did you imagine how you would feel when you met your goal?<br/>Did you think about why you wanted to complete this goal?"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 3,
+          "type": "level-up",
+          "titleText": "IT'S WORKING!",
+          "subTitleText": "Vampiro is losing its grip!",
+          "config": {
+            "background": {
+              "imageUrl": "spotlight-bg-pink.svg"
+            },
+            "image": {
+              "imageUrl": "l-5-a-3-bridge-1.png"
+            },
+            "isAutoCompleted": true,
+            "color": "pink",
+            "sparkles": {
+              "imageUrl": "spotlight-sparkles-pink.svg"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "type": "text-box",
+          "titleText": "What kind of help will you need to complete your goal?",
+          "placeholderKeys": {
+            "goalName": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1,
+                "propertyName": "shortText"
+              }
+            }
+          },
+          "isDynamic": true,
+          "config": {
+            "tooltipToggle": {
+              "labelText": "Not sure what to write? Try some idea starters.",
+              "tooltipText": "Will you need to make time to talk to a certain person?<br/>Is there equipment or materials you’ll have to gather?<br/>Will you have to find a time or place to work on a new skill?"
+            },
+            "placeholderText": "Add your answer here to continue",
+            "rows": 2,
+            "leftPanel": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1
+              },
+              "type": "goal",
+              "subtype": "steps"
+            }
+          },
+          "variantConfig": {
+            "variantId": 1,
+            "answerFrom": {
+              "activityId": 4,
+              "exerciseId": 1
+            },
+            "activateIf": {
+              "statusId": 1
+            },
+            "replace": {
+              "titleText": "What kind of help did you need to complete your goal?",
+              "config": {
+                "tooltipToggle": {
+                  "tooltipText": "Did you need to make time to talk to a certain person?<br/>Was there equipment or materials you had to gather?<br/>Did you have to find a time or place to work on a new skill?"
+                }
+              }
+            }
+          }
+        },
+        {
+          "id": 5,
+          "type": "level-up",
+          "titleText": "KEEP WRITING!",
+          "subTitleText": "Dax's motivation is growing!",
+          "config": {
+            "background": {
+              "imageUrl": "spotlight-bg-pink.svg"
+            },
+            "image": {
+              "imageUrl": "l-5-a-3-bridge-2.png"
+            },
+            "isAutoCompleted": true,
+            "color": "pink",
+            "sparkles": {
+              "imageUrl": "spotlight-sparkles-pink.svg"
+            }
+          }
+        },
+        {
+          "id": 6,
+          "type": "text-box",
+          "titleText": "What goal gremlins might show up and how will you defeat them?",
+          "placeholderKeys": {
+            "goalName": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1,
+                "propertyName": "shortText"
+              }
+            }
+          },
+          "isDynamic": true,
+          "config": {
+            "tooltipToggle": {
+              "labelText": "Not sure what to write? Try some idea starters.",
+              "tooltipText": "How can you stop getting muddled by the Muddler or distracted by the Distractor?<br/>How will you fend off the Swarm of Excuses if it shows up?<br/>What can you do to stop the Procrastinator or swat away Vampiro?<br/>Is there another kind of goal gremlin you have seen? Can you describe it?"
+            },
+            "placeholderText": "Add your answer here to continue",
+            "rows": 2,
+            "leftPanel": {
+              "answerFrom": {
+                "activityId": 4,
+                "exerciseId": 1
+              },
+              "type": "image",
+              "leftPanelImage": "l-5-a-3-e1.png"
+            }
+          },
+          "variantConfig": {
+            "variantId": 1,
+            "answerFrom": {
+              "activityId": 4,
+              "exerciseId": 1
+            },
+            "activateIf": {
+              "statusId": 1
+            },
+            "replace": {
+              "titleText": "What goal gremlins did you face and how did you defeat them?",
+              "config": {
+                "tooltipToggle": {
+                  "tooltipText": "How did you stop getting muddled by the Muddler or distracted by the Distractor?<br/>How did you fend off the Swarm of Excuses?<br/>What did you do to stop the Procrastinator or swat away Vampiro?<br/>Was there another kind of goal gremlin you faced? Can you describe it?"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "summary": {
+        "titleText": "Here's what you said about your goal:",
+        "image": {
+          "titleText": "Goal getter!",
+          "subTitleText": "Dax is all revved up and ready to make the final push to meet her goal.",
+          "imageUrl": "l-5-a-3-summary.png"
+        },
+        "results": [
+          {
+            "exerciseId": 1,
+            "questionText": "Your goal:"
+          },
+          {
+            "exerciseId": 2,
+            "questionText": "What kept / will keep you motivated to reach your goal?",
+            "showEditButton": true
+          },
+          {
+            "exerciseId": 4,
+            "questionText": "What kind of help will you / did you need to complete your steps?",
+            "showEditButton": true
+          },
+          {
+            "exerciseId": 6,
+            "questionText": "What goal gremlins might / did show up and how will / did you defeat them?",
+            "showEditButton": true
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "isReflective": false,
+      "landing": {
+        "titleText": "Dream Goals",
+        "image": {
+          "imageUrlMobile": "l-5-a-4-landing-mobile.png",
+          "imageUrl": "l-5-a-4-landing.png"
+        },
+        "config": {
+          "character": [
+            {
+              "image": "pep-marsh-cheering.png",
+              "flipped": false,
+              "width": {
+                "mobile": 170,
+                "desktop": 238
+              },
+              "positions": {
+                "mobile": {
+                  "left": "-10px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "left": "-16px",
+                  "bottom": "-31px"
+                }
+              }
+            },
+            {
+              "image": "dax-startled.png",
+              "flipped": false,
+              "width": {
+                "mobile": 120,
+                "desktop": 170
+              },
+              "positions": {
+                "mobile": {
+                  "right": "0px",
+                  "bottom": "-24px"
+                },
+                "desktop": {
+                  "right": "106px",
+                  "bottom": "-32px"
+                }
+              }
+            }
+          ],
+          "speechBubble": [
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "left": "-5%",
+                  "bottom": "30%"
+                },
+                "desktop": {
+                  "left": "-5%",
+                  "bottom": "45%"
+                }
+              },
+              "width": {
+                "desktop": 146,
+                "mobile": 146
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "bubbleText": "Woohoo! Dax is gremlin-free!"
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "desktop": {
+                  "right": "-3%",
+                  "bottom": "50%"
+                }
+              },
+              "width": {
+                "desktop": 217
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": true,
+              "visibility": {
+                "mobile": false
+              },
+              "bubbleText": "That was my best cartwheel yet! The crowd goes wild! Sounds kinda like you, Marsh."
+            },
+            {
+              "type": "dialog",
+              "positions": {
+                "mobile": {
+                  "right": "-5%",
+                  "bottom": "30%"
+                }
+              },
+              "width": {
+                "mobile": 150
+              },
+              "leftSideArrow": true,
+              "mirroredArrow": false,
+              "visibility": {
+                "desktop": false
+              },
+              "bubbleText": "That was my best cartwheel yet! The crowd goes wild! Sounds kinda like you, Marsh."
+            }
+          ]
+        },
+        "descriptionText": "See how goals can help dreams come true.",
+        "descriptionAltText": "See how goals can help dreams come true.",
+        "ctaText": "Start Activity"
+      },
+      "hub": {
+        "titleText": "You sent those goal gremlins scurrying!",
+        "descriptionText": "Help more Xellions set goals for big dreams in this final mission.",
+        "activities": [
+          {
+            "activityId": 0,
+            "titleText": "Goals and Gremlins",
+            "image": "l-5-h-1.png"
+          },
+          {
+            "activityId": 1,
+            "titleText": "Crystal Clear Goals",
+            "completeImage": "l-5-h-2-complete.png",
+            "image": "l-5-h-2.png"
+          },
+          {
+            "activityId": 2,
+            "titleText": "Grappling with Gremlins",
+            "completeImage": "l-5-h-3-complete.png",
+            "image": "l-5-h-3.png"
+          },
+          {
+            "activityId": 3,
+            "titleText": "Goal Gazing",
+            "completeImage": "l-5-h-4-complete.png",
+            "image": "l-5-h-4.png"
+          },
+          {
+            "activityId": 4,
+            "titleText": "Dream Goals",
+            "image": "l-5-h-5.png"
+          }
+        ],
+        "hubActions": [
+          {
+            "hubActionText": "Watch the video again",
+            "type": "video",
+            "icon": "214-play",
+            "config": {
+              "videoId": "t9w76kkkaw",
+              "titleText": "How to Set Goals",
+              "creditText": "Music is from Bendsound.com"
+            }
+          },
+          {
+            "hubActionText": "Read the story again",
+            "type": "comic",
+            "icon": "213-notebook",
+            "config": {
+              "comicConfig": {
+                "activityId": 1,
+                "combineAll": true
+              },
+              "titleText": "Mission: Facing Big Challenges"
+            }
+          }
+        ]
+      },
+      "exercises": [
+        {
+          "id": 1,
+          "titleText": "Pick the goal that could help <b>Treble's</b> dream come true.",
+          "type": "pictures-multi-select",
+          "isDynamic": false,
+          "config": {
+            "characterPrompt": {
+              "image": "treble-round.png",
+              "text": "My dream is to play the piano for big audiences."
+            }
+          },
+          "options": [
+            {
+              "id": 1,
+              "image": "l-5-a-5-e1-1.png",
+              "shortText": "Learn to play the guitar",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 2,
+              "image": "l-5-a-5-e1-2.png",
+              "shortText": "Play 1 song on the piano in a school concert",
+              "correctAnswer": true,
+              "answerText": "Yes! Treble could get comfy playing in front of an audience."
+            },
+            {
+              "id": 3,
+              "image": "l-5-a-5-e1-3.png",
+              "shortText": "Write a chapter book",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "titleText": "Pick the goal that could help <b>Atlas'</b> dream come true.",
+          "type": "pictures-multi-select",
+          "isDynamic": false,
+          "config": {
+            "characterPrompt": {
+              "image": "atlas-round.png",
+              "text": "My dream is to sail on a boat around the world."
+            }
+          },
+          "options": [
+            {
+              "id": 1,
+              "image": "l-5-a-5-e2-1.png",
+              "shortText": "Take a course about water safety",
+              "correctAnswer": true,
+              "answerText": "Got it! Being safe on the water is an important step towards Atlas’ dream."
+            },
+            {
+              "id": 2,
+              "image": "l-5-a-5-e2-2.png",
+              "shortText": "Learn to dive from the highest diving board",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 3,
+              "image": "l-5-a-5-e2-3.png",
+              "shortText": "Learn how to surf",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "titleText": "Pick the goal that could help <b>Chip's</b> dream come true.",
+          "type": "pictures-multi-select",
+          "isDynamic": false,
+          "config": {
+            "characterPrompt": {
+              "image": "chip-round.png",
+              "text": "My dream is to make an app for a phone or a tablet."
+            }
+          },
+          "options": [
+            {
+              "id": 1,
+              "image": "l-5-a-5-e3-1.png",
+              "shortText": "Do soccer drills 3 times a week",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 2,
+              "image": "l-5-a-5-e3-2.png",
+              "shortText": "Use coding games to learn the basics of computer programs",
+              "correctAnswer": true,
+              "answerText": "Don't give up!"
+            },
+            {
+              "id": 3,
+              "image": "l-5-a-5-e3-3.png",
+              "shortText": "Get accepted to cooking school",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "titleText": "Pick the goal that could help <b>Dart's</b> dream come true.",
+          "type": "pictures-multi-select",
+          "isDynamic": false,
+          "config": {
+            "characterPrompt": {
+              "image": "dart-round.png",
+              "text": "My dream is to get a job looking after animals."
+            }
+          },
+          "options": [
+            {
+              "id": 1,
+              "image": "l-5-a-5-e4-1.png",
+              "shortText": "Start a pet-sitting service for friends and neighbours",
+              "correctAnswer": true,
+              "answerText": "Absolutely! That’s a great way for Dart to get started towards his dream."
+            },
+            {
+              "id": 2,
+              "image": "l-5-a-5-e4-2.png",
+              "shortText": "Take a babysitting course",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 3,
+              "image": "l-5-a-5-e4-3.png",
+              "shortText": "Learn to fish",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "titleText": "Pick the goal that could help <b>Newt's</b> dream come true.",
+          "type": "pictures-multi-select",
+          "isDynamic": false,
+          "config": {
+            "characterPrompt": {
+              "image": "newt-round.png",
+              "text": "My dream is to help people who are sick."
+            }
+          },
+          "options": [
+            {
+              "id": 1,
+              "image": "l-5-a-5-e4-1.png",
+              "shortText": "Pick up litter in the schoolyard every week",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 2,
+              "image": "l-5-a-5-e4-2.png",
+              "shortText": "Draw cartoons for the school paper",
+              "correctAnswer": false,
+              "answerText": "Hmm...try again."
+            },
+            {
+              "id": 3,
+              "image": "l-5-a-5-e4-3.png",
+              "shortText": "Interview the school nurse about their job",
+              "correctAnswer": true,
+              "answerText": "Super! Newt can find out if she might like a job as a nurse."
+            }
+          ]
+        }
+      ],
+      "summary": {
+        "titleText": "Here are some goals to help certain dreams come true:",
+        "image": {
+          "titleText": "Dreamy!",
+          "subTitleText": "You and Dax are ready to shine at goal setting and getting.",
+          "imageUrl": "l-5-a-5-summary.png"
+        },
+        "results": [
+          {
+            "questionText": "Treble",
+            "exerciseId": 1
+          },
+          {
+            "questionText": "Atlas",
+            "exerciseId": 2
+          },
+          {
+            "questionText": "Chip",
+            "exerciseId": 3
+          },
+          {
+            "questionText": "Dart",
+            "exerciseId": 4
+          },
+          {
+            "questionText": "Newt",
+            "exerciseId": 5
+          }
+        ]
+      }
+    },
+    {
+      "exercises": [
+        {
+          "id": 1,
+          "type": "comic",
+          "config": {
+            "comicMode": "storybook",
+            "comics": [
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-11.png",
+                  "mobile": "lesson-5-comic-11-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“Way to battle those sneaky gremlins!” gushed Marsh, as he gave Dax a high five.<hr/>“They were a sneaky bunch.” Dax agreed. “Thanks for the help fending them off. It’s weird but I think my cartwheels got better after all that!”<hr/>“Maybe facing gremlins makes you stronger,” Marsh’s eyes grew wide, “like when you eat spinach! Maybe gremlins are spinach for goals?!”"
+                  }
+                ]
+              },
+              {
+                "images": {
+                  "desktop": "lesson-5-comic-12.png",
+                  "mobile": "lesson-5-comic-12-mobile.png"
+                },
+                "speechMode": "paragraph",
+                "speechBubbles": [
+                  {
+                    "type": "narrative",
+                    "positions": {
+                      "mobile": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      },
+                      "desktop": {
+                        "top": "-16px",
+                        "left": "16px",
+                        "right": "32px",
+                        "maxWidth": "100%"
+                      }
+                    },
+                    "width": {
+                      "mobile": "100%",
+                      "desktop": "100%"
+                    },
+                    "isParagraph": true,
+                    "leftSideArrow": true,
+                    "mirroredArrow": true,
+                    "bubbleText": "“One thing’s for sure,” Pep assured Dax, “if those gremlins show up again, you’ll know how to tackle them.”<hr/>“My stomach’s growling. Let's go for smoothies,” Dax suggested. “Oh! And I can pick up my scary story where I left off.”<hr/>“No thanks!” said Marsh quickly, still recovering from the gremlin invasion. “How about a funny story, instead? One with lots of cute bunnies and kittens.”"
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "titleText": "You did it!",
+    "subTitleText": "",
+    "descriptionText": "You faced the mission challenges and persevered like a pro!",
+    "subHeadingText": "Review your adventure anytime:",
+    "image": {
+      "imageUrl": "l-5-summary-characters.png",
+      "badgeUrl": "goals-summary-badge.svg",
+      "badgeUrlInactive": "goals-summary-badge.svg",
+      "inactiveIcon": "goals-summary-badge",
+      "backgroundUrl": ""
+    }
+  }
+}
