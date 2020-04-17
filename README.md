@@ -1,4 +1,6 @@
-# Lesson Generator
+# Lesson Tools
+
+Tool to convert and generate translations for lessons.
 
 ### Step 1
 Generate Translation Keys based on a Lesson's file. Those keys should be placed on a spreadsheet.
@@ -40,4 +42,16 @@ node generator.js convert -t ./files/mapData.tsv -o ../Xello.Spark.Web/src/conte
 node generator.js convert -t ./files/mapData.tsv -o ./files/lesson_1005_fr-CA.json
 node generator.js convert -t ./files/spanish.tsv -o ./files/lesson_1005_fr-CA.json
 ```
-    
+
+
+----
+
+#### Collaborators
+| Team Member | E-mail | Team |
+|---|---|---|
+| Fabricio Biron | fabriciob@xello.world | Spark |
+| Jonatas Melo | jonatasm@xello.world | Spark |
+| Lily Beaul | lilyb@xello.world | Spark |
+| Wesley Francis | wesleyf@careercruising.com | Xedi |
+
+----
