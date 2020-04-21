@@ -103,7 +103,7 @@ program
   .option('-t,--tsv <file>')
   .option('-o,--output <file>')
   .action((opts) => {
-    convertCSVIntoJson(opts.csv, opts.output);
+    convertCSVIntoJson(opts.tsv, opts.output);
   });
 
 program.parse(process.argv);

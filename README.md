@@ -38,9 +38,9 @@ node generator.js convert -t {translation csv file} -o {output file}
 ```
 E.g.:
 ```
-node generator.js convert -t ./files/mapData.tsv -o ../Xello.Spark.Web/src/content/lessons/lesson_1004_fr-CA.json
 node generator.js convert -t ./files/mapData.tsv -o ./files/lesson_1005_fr-CA.json
 node generator.js convert -t ./files/spanish.tsv -o ./files/lesson_1005_fr-CA.json
+node generator.js convert -t ./files/french-translation.tsv -o ../Xello.Spark.Web/src/content/lessons/lesson_1004_fr-CA.json
 ```
 
 
