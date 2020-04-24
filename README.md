@@ -10,22 +10,17 @@ node generator.js generate -f {template file} -m { map = path and file name with
 ```
 E.g.:
 ```
-node generator.js generate -f ./files/lesson_1004_template.json -m ./files/mapData
-node generator.js generate -f ./files/lesson_1005_template.json -m ./files/mapData
+node generator.js generate -f ./files/lesson_1004
 ```
 
 ----
 
 ### Step 2
-After the previous step, the `mapFile` should be use as source to replace all text properties with a proper Translation Key. 
+Sanitize TSV.
 
-```
-node generator.js replace -m  {map file} -t {template file} -o {output file}
-```
 E.g.:
 ```
-node generator.js replace -m ./files/mapData.json -t ./files/lesson_1004_template.json -o ../Xello.Spark.Web/src/content/lessons/lesson_1004_fr-CA.json
-node generator.js replace -m ./files/mapData.json -t ./files/lesson_1005_template.json -o ./files/lesson_1005_fr-CA.json
+node generator.js sanitize -f ./files/translations
 ```
 
 ----
@@ -33,14 +28,9 @@ node generator.js replace -m ./files/mapData.json -t ./files/lesson_1005_templat
 ### Step 3
 Once the CVS is filled with translations, use the CSV file to replace the existing keys to the proper translation. 
 
-```
-node generator.js convert -t {translation csv file} -o {output file}
-```
 E.g.:
 ```
-node generator.js convert -t ./files/mapData.tsv -o ./files/lesson_1005_fr-CA.json
-node generator.js convert -t ./files/spanish.tsv -o ./files/lesson_1005_fr-CA.json
-node generator.js convert -t ./files/french-translation.tsv -o ../Xello.Spark.Web/src/content/lessons/lesson_1004_fr-CA.json
+node generator.js convert -t ./files/translations.tsv -f ./files/lesson_1004 -o ./files/lesson_1004
 ```
 
 

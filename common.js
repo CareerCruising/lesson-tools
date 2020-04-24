@@ -24,19 +24,30 @@ const createKeyFromPath = (path) => {
 }
 
 const replaceQuotes = (text) => {
+    if(text === undefined || text === '' || text === null) return '';
     try {
-        return text.replace(/\"/gm, '&#39;');
+        console.log('quotes found')
+        return text.replace(/["]/g, '&#39;');
     } catch(e) {
-        console.log(e, text);
+        printError(`Replace Quotes has failed in attempt to change: ${text}`);
     }
 }
 
-const sanitizeResult = (arr) => {
-    return arr.map(v => {
-        return {
-          key: v.key, 
-          value: sanitizeTsv(v.value)
+const sanitizeResult = (params) => {
+    // console.log('params', params ); // #fbr #console
+    return params.results.map(v => {
+        const obj = {}
+        for(let header of params.headers) {
+            if(v[header]) {
+                if(v[header].search(/(")/g)) {
+                    obj[header] = sanitizeTsv(v[header])
+                } else {
+                    obj[header] = v[header];
+                }
+            }
         }
+        // console.log('obj', obj ); // #fbr #console
+        return obj;
     });
 }
 
@@ -248,6 +259,7 @@ const extractKeys = (nodeList) => {
                 });
             } catch(e) {
                 console.log(e, field);
+                printError(`Error ${e} on field ${field}`)
             }
           }
         }
@@ -269,5 +281,6 @@ module.exports = {
     convertNodeIntoJson,
     createKeyFromPath,
     sanitizeResults,
-    printError
+    printError,
+    sanitizeTsv
 }

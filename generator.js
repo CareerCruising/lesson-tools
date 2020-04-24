@@ -10,7 +10,8 @@ const {
   saveFile,
   saveJsonFile,
   sanitizeResults,
-  printError
+  printError,
+  sanitizeTsv
 } = require('./common.js');
 
 const {
@@ -18,12 +19,13 @@ const {
 } = require('./validation');
 
 
-const generateKeys = (templateFileUri, mapFileName) => {
+const generateKeys = (fileName) => {
+  // console.log(fileName)
   /** validation */
-  const v1 = validate('mapFileName', mapFileName);
-  const v2 = validate('jsonFileName', templateFileUri);
-  if(v1 && v2) {
-    fs.readFile(`${templateFileUri}`, (err, template) => {
+  const v1 = validate('mapFileName', fileName);
+
+  if(v1) {
+    fs.readFile(`${fileName}_template.json`, (err, template) => {
       const nodeList = recursiveNode('', '', JSON.parse(template.toString()));
       const keys = extractKeys(nodeList);
       const languages = ['en-CA','en-US' ,'fr-CA', 'es-US'].reduce((p, a) =>  p + '\t'+ a );
@@ -33,50 +35,57 @@ const generateKeys = (templateFileUri, mapFileName) => {
         str += path.key +'\t' + path.value + '\n';
       }
     
-      saveFile(`${mapFileName}.tsv`, str, () => {})
-      saveJsonFile(`${mapFileName}.json`, keys, () => {})
+      saveFile(`${fileName}_map.tsv`, str, () => {
+        
+      })
+      saveJsonFile(`${fileName}_map.json`, keys, () => {
+        const tree = replaceValuesByKeys(JSON.stringify(keys), template);
+        saveJsonFile(`${fileName}_map-template.json`, convertNodeIntoJson(tree), () => {})
+      })
     });
   }
 }
 
-const replaceKeysInTheJsonFile = (mapFileUri, templateFileUri, outputFileUri) => {
-  const v1 = validate('jsonFileName', mapFileUri);
-  const v2 = validate('jsonFileName', templateFileUri);
-  const v3 = validate('jsonFileName', outputFileUri);
+const sanitizing = (fileName) => {
+  const v1 = validate('mapFileName', fileName);
+  if(v1) {
+    fs.readFile(`${fileName}.tsv`, (err, jsonFile) => {
+      const sanitized = sanitizeTsv(jsonFile.toString());
+      saveFile(`${fileName}.tsv`, sanitized, () => {});
+    })
+  }
+}
+
+const convertCSVIntoJson = (tsv, fileName, output) => {
+  const v1 = validate('isTsvFile', tsv);
+  const v2 = validate('mapFileName', fileName);
+  const v3 = validate('mapFileName', output);
 
   if(v1 && v2 && v3) {
-    fs.readFile(`${mapFileUri}`, (err, mapKeys) => {
-      fs.readFile(`${templateFileUri}`, (err, template) => {
-        const tree = replaceValuesByKeys(mapKeys, template);
-        saveJsonFile(outputFileUri, convertNodeIntoJson(tree), () => {})
-      });
-    });
-  }
-}
-
-const convertCSVIntoJson = (csvFileUri, outputFileUri) => {
-  const v1 = validate('isTsvFile', csvFileUri);
-  const v2 = validate('jsonFileName', outputFileUri);
-
-  if(v1 && v2) {
     const results = [];
-    fs.createReadStream(`${csvFileUri}`)
-      .pipe(csv({ separator: '\t', headers: ['key', 'value']},))
+    const languages = ['en-CA','en-US' ,'fr-CA', 'es-US'];
+    const _headers = ['key', ...languages];
+    fs.createReadStream(`${tsv}`)
+      .pipe(csv({ separator: '\t', headers: _headers},))
       .on('data', (data) => results.push(data))
       .on('end', () => {
-        fs.readFile(outputFileUri, (err, jsonFile) => {
-          let json = jsonFile.toString();
-          let line = 1;
-          for (line of sanitizeResults(results)) {
-            try {
-              const re = new RegExp(`(?<=\")${line.key}(?=\")`, 'g');
-              json = json.replace(re, line.value)
-              line++;
-            } catch(err) {
-              printError(`Error in line #${line} with key ${line.key} value ${line.value}. Error: ${err} `);
+        fs.readFile(`${fileName}_map-template.json`, (err, jsonFile) => {
+          let lineN = 1;
+          for(languageColumn of languages) {
+            let json = jsonFile.toString();
+            for (line of results) {
+              try {
+                if(line.key) {
+                  const re = new RegExp(`(?<=\")${line.key}(?=\")`, 'g');  
+                  json = json.replace(re, line[languageColumn]);
+                  lineN++;
+                }
+              } catch(err) {
+                printError(`Error in line #${line} with key ${line.key} value ${line[languageColumn]}. Error: ${err} `);
+              }
             }
+            saveJsonFile(`${output}_${languageColumn}.json`, JSON.parse(json), () => {})
           }
-          saveJsonFile(`${outputFileUri}`, JSON.parse(json), () => {})
         });
       });
   }
@@ -84,27 +93,25 @@ const convertCSVIntoJson = (csvFileUri, outputFileUri) => {
 
 program
   .command('generate')
-  .option('-f,--file <file>')
-  .option('-m,--map <name>')
+  .option('-f,--fileName <name>')
   .action((opts) => {
-    generateKeys(opts.file, opts.map);
+    generateKeys(opts.fileName);
   });
 
 program
-  .command('replace')
-  .option('-m,--map <file>')
-  .option('-t,--template <file>')
-  .option('-o,--output <file>')
+  .command('sanitize')
+  .option('-f,--fileName <name>')
   .action((opts) => {
-    replaceKeysInTheJsonFile(opts.map, opts.template, opts.output);
+    sanitizing(opts.fileName);
   });
 
 program
   .command('convert')
-  .option('-t,--tsv <file>')
+  .option('-t,--tsv <tsv>')
+  .option('-f,--fileName <name>')
   .option('-o,--output <file>')
   .action((opts) => {
-    convertCSVIntoJson(opts.tsv, opts.output);
+    convertCSVIntoJson(opts.tsv, opts.fileName, opts.output);
   });
 
 program.parse(process.argv);
