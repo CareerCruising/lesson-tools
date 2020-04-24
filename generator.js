@@ -26,8 +26,9 @@ const generateKeys = (templateFileUri, mapFileName) => {
     fs.readFile(`${templateFileUri}`, (err, template) => {
       const nodeList = recursiveNode('', '', JSON.parse(template.toString()));
       const keys = extractKeys(nodeList);
-  
+      const languages = ['en-CA','en-US' ,'fr-CA', 'es-US'].reduce((p, a) =>  p + '\t'+ a );
       str = '';
+      str+= 'keys \t'+languages+'\n';
       for(let path of keys ) {
         str += path.key +'\t' + path.value + '\n';
       }
