@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# Custom files
+files/
+!files/lesson_1004_template.json
+!files/translations.tsv
